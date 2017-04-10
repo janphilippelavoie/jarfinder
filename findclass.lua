@@ -2,7 +2,7 @@
 -- arguments
 local folder = arg[1]
 local className = arg[2]
-assert(folder and className, "Missing arguments: findclass.lua foldername classname")
+assert(folder and className, "Missing arguments: findclass.lua [foldername] [classname]")
 
 local main, containsClass, printResults
 
